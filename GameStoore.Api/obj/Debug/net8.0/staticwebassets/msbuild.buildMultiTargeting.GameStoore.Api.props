@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/GameStoore.Api.props" />
+</Project>

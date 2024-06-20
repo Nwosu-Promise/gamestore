@@ -1,0 +1,36 @@
+GET http://localhost:5057
+
+###
+GET http://localhost:5057/games
+
+###
+GET http://localhost:5057/games/4
+
+###
+POST http://localhost:5057/games
+Content-Type: application/json
+
+
+{
+  "name": "Minecraft",
+  "genre": "Kids and Family",
+  "price": 19.99,
+  "releaseDate": "2011-11-18"
+}
+
+
+###
+PUT http://localhost:5057/games/4
+Content-Type: application/json
+
+
+{
+  "name": "FIFA 23",
+  "genre": "Sports",
+  "price": 19.99,
+  "releaseDate": "2023-11-18"
+}
+
+
+###
+DELETE http://localhost:5057/games/3
